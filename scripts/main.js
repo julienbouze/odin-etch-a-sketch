@@ -2,7 +2,7 @@ const grid = document.querySelector('#grid');
 setGridSize(4);
 function getUserChoice(){
     let sideNumber = prompt("What number of square by side do you want ? MAX : 100");
-    if (sideNumber == null || sideNumber == 0){
+    if (sideNumber == null || sideNumber < 4){
         sideNumber = 4;
     }
     if (sideNumber > 100){
