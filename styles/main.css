@@ -1,0 +1,35 @@
+body,html{
+  height:100vh;
+  padding:0;
+  margin:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:0.2em;
+}
+
+#grid{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width : 90vh;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border:solid 1px black;
+}
+
+.square{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
