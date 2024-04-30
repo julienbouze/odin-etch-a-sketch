@@ -4,3 +4,4 @@
 
 The goal of this project is to learn :
 - DOM manipulation
+- Flexboxes
