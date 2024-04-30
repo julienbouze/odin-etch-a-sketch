@@ -33,3 +33,14 @@ body,html{
   align-items: center;
 }
 
+#gridSizeBtn{
+  border :none;
+  background-color: #222222;
+  color:white;
+  padding : 0.7em;
+  cursor:pointer
+}
+#gridSizeBtn:hover{
+  background-color: #383838;
+}
+

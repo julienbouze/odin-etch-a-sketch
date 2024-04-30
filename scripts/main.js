@@ -39,7 +39,7 @@ function setGridSize(number){
         grid.innerHTML = "";
     }
     
-    let divSize = String(Math.floor(100 / number)).concat("%");
+    let divSize = String(100 / number).concat("%");
     gridSize = number*number;
     for(let i = 0 ; i < gridSize ; ++i){
         let div = document.createElement('div');
